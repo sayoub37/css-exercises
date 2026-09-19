@@ -16,6 +16,10 @@ body {
 }
 
 .modal {
+  display: flex;
+  padding: 15px;
+  gap: 15px;
+  justify-content: center;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -35,6 +39,27 @@ body {
   justify-content: center;
 }
 
+.prompt,
+.options {
+	display: flex;
+}
+
+.options {
+	gap: 5px;
+}
+
+.header {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -48,6 +73,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: auto;
 }
 
 button {
